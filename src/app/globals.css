@@ -1,0 +1,61 @@
+:root{ 
+    --bg : #fff,
+    --textColor : #000,
+    --softBg : #f0f0f0,
+    --softTextColor : #626262
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    max-width: 100vw;
+    overflow-x: hidden;
+}
+
+a{
+    color:inherit;
+    text-decoration: none;
+}
+.mainContainer{
+    min-height: 100vh;
+    background-color: var(--bg);
+    color: var(--textColor);
+}
+.globalWrapper{
+    max-width: 1536px;
+    margin: 0 auto;
+    padding: 0 80px;
+}
+
+
+@media (max-width:1536px){
+    .globalWrapper{
+    max-width: 1366px;
+}
+}
+@media (max-width:1200px){
+    .globalWrapper{
+    max-width: 1024px;
+}
+}
+@media (max-width:1024px){
+    .globalWrapper{
+    max-width: 768px;
+    padding: 0 40px;
+
+}
+}
+@media (max-width:768px){
+    .globalWrapper{
+    max-width: 648px;
+}
+}
+@media (max-width:648px){
+    .globalWrapper{
+    max-width: 475px;
+}
+}
