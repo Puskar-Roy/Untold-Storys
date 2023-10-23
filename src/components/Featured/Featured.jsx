@@ -3,7 +3,7 @@ import styles from './feature.module.css'
 const Featured = () => {
   return (
     <div className={styles.container}>
-      Navbar
+      Featured
     </div>
   )
 }
