@@ -6,11 +6,6 @@ import { ThemeContext } from '@/context/ThemeContext'
 
 const ThemeChange = () => {
   const {theme , toggle}  = useContext(ThemeContext)
-  const toggle1 = ()=>{
-    console.log("working");
-    window.alert("Working")
-  }
-  console.log(theme);
   return (
     <div className={styles.container} onClick={toggle} style={theme === "dark" ? {background: "#fff" } : { background: "#0f172a" }}>
         <Image src="/moon.png" alt='logo' width={14} height={14}/>
