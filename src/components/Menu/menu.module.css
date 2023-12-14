@@ -77,3 +77,9 @@
     font-weight: 400;
     color: var(--softTextColor);
 }
+
+@media (max-width: 1024px) {
+    .container{
+        display: none;
+    }
+}

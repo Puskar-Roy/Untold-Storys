@@ -8,7 +8,7 @@ import ThemeProvider from "@/providers/ThemeProvider";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Gum-Gum Blog App",
+  title: "Untold Storys",
   description: "The best blog app!",
 };
 

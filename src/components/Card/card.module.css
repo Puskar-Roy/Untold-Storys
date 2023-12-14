@@ -39,3 +39,10 @@
     width: max-content;
     padding: 2px 0;
 }
+
+
+@media (max-width: 1024px) {
+    .imageContainer{
+        display: none;
+    }
+}
